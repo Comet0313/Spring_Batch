@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.db.UserCustomMapper">
+    <!-- 例子 -->
+	<select id="selectAuth"	resultType="com.example.demo.db.UserCustom" >
+        SELECT
+            *    
+        FROM TEST
+	</select>
+    
+	<select id="selectAuthCondition" resultType="com.example.demo.db.UserCustom" >
+        SELECT
+            *    
+        FROM TEST
+	</select>
+</mapper>

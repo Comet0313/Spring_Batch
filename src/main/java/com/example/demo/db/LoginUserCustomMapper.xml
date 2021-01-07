@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.db.LoginUserCustomMapper">
+	<!-- 例 -->
+    <select id="selectAuth"	resultType="com.example.demo.db.LoginUserCustom" >
+        SELECT
+            *
+        FROM LOGIN_USER
+	</select>
+
+	<select id="selectAuthCondition" resultType="com.example.demo.db.LoginUserCustom" >
+    <![CDATA[ 
+        SELECT
+            *
+        FROM LOGIN_USER
+    ]]>
+	</select>
+</mapper>
